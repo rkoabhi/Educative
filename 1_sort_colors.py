@@ -1,3 +1,18 @@
+'''
+Explore how to efficiently sort an array containing red, white, and blue colors represented by 0, 1, and 2 using the two pointers approach. Understand how to implement this one pass algorithm without extra space and apply it to coding interview problems involving linear data structures.
+Statement
+You are given an array nums of length n, where each element represents an object colored either red, white, or blue. The integers 0, 1, and 2 are used to represent red, white, and blue, respectively.
+
+Sort the array in place so that all objects of the same color are grouped together, arranged in the order: red (0), white (1), and blue (2).
+
+You must solve this problem without using any library sort function.
+
+Note: Could you come up with a one pass algorithm using only constant extra space?
+
+'''
+
+
+
 def sort_colors(colors):
     low = 0
     mid = 0
